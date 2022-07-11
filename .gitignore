@@ -1,1 +1,5 @@
+# Ignore rubocop config file
 .rubocop-*
+
+# Ignore Mac system files
+.DS_store
