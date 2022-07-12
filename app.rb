@@ -12,6 +12,9 @@ class BookmarkManager < Sinatra::Base
   end
 
   get '/bookmarks' do
+    p "THIS IS ENV:"
+    p ENV
+    p"________"
     @bookmarks = Bookmark.all
     erb(:bookmarks)
   end
