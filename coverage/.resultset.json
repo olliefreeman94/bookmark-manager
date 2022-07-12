@@ -1,14 +1,15 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/marlon.buckley/Projects/Week-6-Databases/app.rb": {
+      "/Users/olliefreeman/Tests/Databases/Marlon/bookmark-manager/app.rb": {
         "lines": [
+          1,
           1,
           1,
           null,
           1,
-          1,
-          0,
+          null,
+          null,
           null,
           null,
           1,
@@ -24,7 +25,21 @@
           null
         ]
       },
-      "/Users/marlon.buckley/Projects/Week-6-Databases/spec/features/bookmarks_page_spec.rb": {
+      "/Users/olliefreeman/Tests/Databases/Marlon/bookmark-manager/lib/bookmark.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/olliefreeman/Tests/Databases/Marlon/bookmark-manager/spec/features/bookmarks_page_spec.rb": {
         "lines": [
           1,
           1,
@@ -35,7 +50,7 @@
           null
         ]
       },
-      "/Users/marlon.buckley/Projects/Week-6-Databases/spec/features/index_page_spec.rb": {
+      "/Users/olliefreeman/Tests/Databases/Marlon/bookmark-manager/spec/features/index_page_spec.rb": {
         "lines": [
           1,
           1,
@@ -45,39 +60,27 @@
           null
         ]
       },
-      "/Users/marlon.buckley/Projects/Week-6-Databases/spec/units/bookmarklist_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/marlon.buckley/Projects/Week-6-Databases/lib/BookmarkList.rb": {
+      "/Users/olliefreeman/Tests/Databases/Marlon/bookmark-manager/spec/units/bookmarklist_spec.rb": {
         "lines": [
           1,
           null,
           1,
           null,
           null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
           null,
           null,
           null
         ]
       }
     },
-    "timestamp": 1657614556
+    "timestamp": 1657618719
   }
 }
