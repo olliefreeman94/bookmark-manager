@@ -4,7 +4,9 @@
 Show a list of bookmarks
 
 As a user of the internet
+
 So that I can review webpages that I've saved
+
 I'd like to view a list of my saved bookmarks
 ![Diagram](./images/all_bookmarks_diagram.jpg "Domain model")
 
