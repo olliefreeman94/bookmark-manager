@@ -1,0 +1,83 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/marlon.buckley/Projects/Week-6-Databases/app.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          1,
+          0,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/marlon.buckley/Projects/Week-6-Databases/spec/features/bookmarks_page_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/marlon.buckley/Projects/Week-6-Databases/spec/features/index_page_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/marlon.buckley/Projects/Week-6-Databases/spec/units/bookmarklist_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/marlon.buckley/Projects/Week-6-Databases/lib/BookmarkList.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1657614556
+  }
+}
