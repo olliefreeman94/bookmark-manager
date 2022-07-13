@@ -2,7 +2,7 @@ require 'bookmark'
 
 RSpec.describe Bookmark do
 
-  context "#all method" do
+  describe "#all method" do
     it "returns all stored bookmarks" do
       connection = PG.connect(dbname: 'bookmark_manager_test')
 
@@ -10,11 +10,19 @@ RSpec.describe Bookmark do
       connection.exec("INSERT INTO bookmarks (url) VALUES ('http://www.google.com/');")
       connection.exec("INSERT INTO bookmarks (url) VALUES ('http://www.destroyallsoftware.com/');")
 
-      expect(Bookmark.all).to eq [
-        "http://www.makersacademy.com/",
-        "http://www.google.com/",
-        "http://www.destroyallsoftware.com/"
-      ]
+      bookmarks = Bookmark.all
+
+      expect(bookmarks).to include("http://www.makersacademy.com/")
+      expect(bookmarks).to include("http://www.google.com/")
+      expect(bookmarks).to include("http://www.destroyallsoftware.com/")
+    end
+  end
+
+  describe "#create method" do
+    it "adds new bookmark" do
+      Bookmark.create(url: 'http://www.example.org/')
+
+      expect(Bookmark.all).to include 'http://www.example.org/'
     end
   end
 end

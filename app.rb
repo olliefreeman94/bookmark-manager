@@ -12,11 +12,17 @@ class BookmarkManager < Sinatra::Base
   end
 
   get '/bookmarks' do
-    # p THIS IS ENV:
-    # p ENV
-    # p ____________
     @bookmarks = Bookmark.all
     erb(:bookmarks)
+  end
+
+  post '/bookmarks' do
+    Bookmark.create(url: params[:url])
+    redirect '/bookmarks'
+  end
+
+  get '/bookmarks/new' do
+    erb(:new_bookmark)
   end
 
   run! if app_file == $0

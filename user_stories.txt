@@ -1,21 +1,23 @@
 
 Show a list of bookmarks
 
-  As a user of internet
+  As a user of the internet
 
-  So that I can review web pages that I've saved
+  So that I can review webpages that I've saved
 
-  I'd like to be able to view a list of my bookmarks.
+  I'd like to view a list of my saved bookmarks.
 
+Add new bookmarks
 
+  As a user of the internet
 
+  So that I can record websites that I've visited
 
+  I'd like to add a bookmark to my bookmarks list.
 
-
-    Add new bookmarks
-    Delete bookmarks
-    Update bookmarks
-    Comment on bookmarks
-    Tag bookmarks into categories
-    Filter bookmarks by tag
-    Users are restricted to manage only their own bookmarks
+Delete bookmarks
+Update bookmarks
+Comment on bookmarks
+Tag bookmarks into categories
+Filter bookmarks by tag
+Users are restricted to manage only their own bookmarks
