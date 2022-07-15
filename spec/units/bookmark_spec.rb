@@ -16,7 +16,6 @@ RSpec.describe Bookmark do
 
   describe "#all method" do
     it "returns all stored bookmarks" do
-      connection = PG.connect(dbname: 'bookmark_manager_test')
       bookmark = Bookmark.create(url: "http://www.makersacademy.com/", title: "Makers")
       Bookmark.create(url: "http://www.destroyallsoftware.com/", title: "Destroy All Software")
       Bookmark.create(url: "http://www.google.com/", title: "Google")
